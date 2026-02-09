@@ -1,0 +1,22 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-1: #0f172a;
+  --brand-2: #111827;
+  --accent: #f59e0b;
+  --muted: #94a3b8;
+  --surface: rgba(15, 23, 42, 0.85);
+  --panel: rgba(30, 41, 59, 0.9);
+}
+
+body {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background: radial-gradient(circle at top, #1e293b, #0f172a 45%, #020617 100%);
+  min-height: 100vh;
+}
+
+input, textarea, select {
+  color: #e2e8f0;
+}
